@@ -17,7 +17,7 @@ public class Main {
 
         botListener.addCommands(
                 new Find(),
-                new Help(),
+                new Help(botListener),
                 new Project(),
                 new Search(),
                 new SetPrefix(),

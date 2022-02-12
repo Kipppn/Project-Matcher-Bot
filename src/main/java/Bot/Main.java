@@ -18,10 +18,10 @@ public class Main {
         botListener.addCommands(
                 new Find(),
                 new Help(botListener),
-                new Project(),
-                new Search(),
-                new SetPrefix(),
-                new Top());
+                //new Project(),
+                //new Search(),
+                new SetPrefix(botListener));
+                //new Top());
         bot.addEventListeners(botListener);
 
 

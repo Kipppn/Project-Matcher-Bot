@@ -38,7 +38,6 @@ public class BotListener implements EventListener {
             System.out.println("***** BOT IS OFFLINE *****");
         }
         if (event instanceof MessageReceivedEvent) {
-            //((MessageReceivedEvent) event).getChannel().sendMessage("Test").queue();
             commandRouter((MessageReceivedEvent) event);
         }
 
